@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #abc7ff 49%, #c1e3ff 92%);
+}
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+}
+#chartContainer {
+    margin-left: 120px;
+}
+#chartContainer1 {
+    margin-left: 120px;
+}
+#chartContainer2 {
+    margin-left: 120px;
+}
+
+
+.button {
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 26px;
+      opacity: 0.1;
+      transition: 0.3s;
+      cursor: pointer;
+      width:33.33%;
+      float: left;
+    }
+    
+    .button:hover {opacity: 1}
